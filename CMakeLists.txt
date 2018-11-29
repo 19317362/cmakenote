@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 
 message("Using CMake version ${CMAKE_VERSION}")
 
-if(POLICY CMP0074)
-  cmake_policy(SET CMP0074 OLD)
+if(NOT POLICY CMP0048)
+  cmake_policy(SET CMP0048 NEW)
 endif()
 
 
@@ -41,3 +41,5 @@ endif()
 
 
 add_library(main main.cpp)
+
+add_subdirectory(boo)
