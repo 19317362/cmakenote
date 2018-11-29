@@ -1,3 +1,0 @@
-/Users/wangpengsen/study/cmakenote/_builds/CMakeFiles/rebuild_cache.dir
-/Users/wangpengsen/study/cmakenote/_builds/CMakeFiles/edit_cache.dir
-/Users/wangpengsen/study/cmakenote/_builds/CMakeFiles/main.dir
